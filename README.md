@@ -1,4 +1,4 @@
-# Laravel 8 轉換 JSON 欄位成物件
+# Laravel 10 轉換 JSON 欄位成物件
 
 引入 jessarcher 的 laravel-castable-data-transfer-object 套件來擴增轉換 JSON 欄位成物件。
 

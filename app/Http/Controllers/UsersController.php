@@ -12,9 +12,9 @@ class UsersController extends Controller
         $user           = new User;
         $user->name     = 'henry.lee';
         $user->email    = 'henryleeworld@gmail.com';
-        $user->password = Hash::make('password');
+        $user->password = 'password';
         $user->address  = [
-            'road'     => '信義路五段7號',
+            'road'     => '信義路五段 7 號',
             'district' => '台北市信義區',
             'zip_code' => '110',
         ];
